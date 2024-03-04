@@ -351,3 +351,6 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+article img {
+  width:50px
+} 
