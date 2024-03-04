@@ -1,0 +1,116 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  color: black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section {
+      padding: 20px;
+    }
+    
+section p {
+    font-size: 16px;
+    color: #333;
+}
+
+    section h2 {
+      color: #333;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+#hamburgerIcon {
+  display: none;
+  width: 50px;
+  cursor: pointer;
+}
+
+#whatsappButton {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  #hamburgerIcon {
+    display: block;
+    background-color: transparent;
+  }
+}
+
+/* Add any additional styles here */

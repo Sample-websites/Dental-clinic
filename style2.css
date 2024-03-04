@@ -1,0 +1,353 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+#hero {
+  background: url('dentist-background-image2.jpg') center/cover;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  font-size: 16px;
+}
+
+/* ... (remaining CSS styles) ... */
+
+
+
+
+nav {
+  background-color:  #3498db;
+  color: #ecf0f1;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e74c3c;
+}
+
+/* ... (previous CSS styles) ... */
+
+#faq {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+}
+
+/* ... (remaining CSS styles) ... */
+
+
+/* Previous CSS styles... */
+
+/* New styles for services section */
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service h3 {
+  color: #2c3e50;
+}
+
+.service p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.book-now {
+  display: inline-block;
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #2980b9;
+}
+
+/* ... (previous CSS styles) ... */
+
+/* New styles for the about section */
+#about {
+  background-color: #ecf0f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ... (remaining CSS styles) ... */
+
+
+/* Additional styles... */
+
+/* ... (previous CSS styles) ... */
+
+/* ... (previous CSS styles) ... */
+
+/* ... (previous CSS styles) ... */
+
+#gallery {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (remaining CSS styles) ... */
+/* ... (previous CSS styles) ... */
+
+#reviews {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#reviewForm {
+  max-width: 400px;
+  margin: auto;
+}
+
+#reviewForm label,
+#reviewForm textarea,
+#reviewForm button {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.review {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* ... (remaining CSS styles) ... */
+
+
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact,
+.footer-social {
+  flex: 1;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+/* ... (remaining CSS styles) ... */
+
+/* ... (remaining CSS styles) ... */
+
+#hamburgerIcon {
+  display: none;
+  cursor: pointer;
+  width: 50px;
+}
+
+#whatsappButton {
+  display: inline-block;
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#whatsappButton:hover {
+  background-color: #27ae60;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  #hamburgerIcon {
+    display: block;
+  }
+}
+
+section {
+  margin: 40px 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 14px 28px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
